@@ -6,9 +6,21 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = function() {
-  let who = ["itme", "item2", "item3", "item4", "itme5"];
-  let what = ["itme", "item2", "item3", "item4", "itme5"];
-  let when = ["itme", "item2", "item3", "item4", "itme5"];
+  let who = ["Car", "Dog", "Bison", "Bob", "Bird"];
+  let what = [
+    "drove home",
+    "destroyed an iceberg",
+    "terrorized ants",
+    "jump into a fire",
+    "ran from a ghost"
+  ];
+  let when = [
+    "over the weekend",
+    "when I was about to work",
+    "in the middle of traffic!",
+    "that purposely deleted my code",
+    "and broke my nail"
+  ];
 
   let sentence = `${who[getRndInteger(0, who.length - 1)]} ${
     what[getRndInteger(0, what.length - 1)]
